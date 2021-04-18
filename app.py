@@ -1,6 +1,7 @@
 import streamlit as st
 import sklearn
 import joblib
+import numpy as np
 model = joblib.load('model')
 st.title('Sentiment Analyser')
 ip = st.text_input('Enter your remarks:')
